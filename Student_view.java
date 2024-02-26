@@ -72,6 +72,7 @@ public class Student_view {
 				Student student = getstudentobject();	
 				Student s = controller.saveStudent(student);
 				System.out.println(s);
+					break;
 				
 			case 2:
 				System.out.println("Enter student Id:");
@@ -86,6 +87,7 @@ public class Student_view {
 				{
 					System.out.println("Student not found....");
 				}
+					break;
 				
 			case 3:
 				 System.out.println("Enter studend id");
